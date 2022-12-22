@@ -11,7 +11,7 @@
       <a class="single" href="/blogs/<%= blog._id %>">
         <h3 class="title"><%= blog.title %></h3>
         <p class="snippet"><%= blog.snippet %></p>
-        <p class="snippet"><%= new Date( blog.createdAt).toISOString() %></p>
+        <p class="snippet"><%= new Date(blog.createdAt).toISOString() %></p>
       </a>
       <% }) %> <% } else { %>
       <p>There are no blogs to display...</p>
