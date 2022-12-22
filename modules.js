@@ -1,6 +1,6 @@
-const { people, age } = require('./people')
+const { people, age } = require('./people');
 
-console.log(people, age)
+console.log(people, age);
 
 const os = require('os');
 

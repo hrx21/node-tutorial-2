@@ -9,8 +9,7 @@
 //     console.log('I will keep running')
 // }, 1000)
 
-
 // console.log(__dirname)
 // console.log(__filename)
 
-console.log(document.querySelector)  // this is window object won't work in global object. 
+console.log(document.querySelector); // this is window object won't work in global object.

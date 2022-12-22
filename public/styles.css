@@ -81,6 +81,7 @@ textarea{
   border: 0;
   font-size: 1.2em;
   cursor: pointer;
+<<<<<<< HEAD
 }
 .blogs a{
   display: block;
@@ -110,4 +111,6 @@ textarea{
   border: solid;
   color: black;
   background-color: white; */
+=======
+>>>>>>> f1a76d8910dec404efb27bdd43cafb440c2a042a
 }

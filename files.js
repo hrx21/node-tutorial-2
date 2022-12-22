@@ -15,7 +15,7 @@ const fs = require('fs');
 
 // fs.writeFile('./docs/doc1.txt', 'hello world', () => {
 //     console.log('file was written')
-// }) 
+// })
 
 // if(!fs.existsSync('./assets1')){
 // fs.mkdir('./assets1', (err) => {
@@ -27,7 +27,7 @@ const fs = require('fs');
 // } else {
 //     fs.rmdir('./assets1', (err) => {
 //         if (err) {
-//             console.log(err)            
+//             console.log(err)
 //         }
 //     })
 //     console.log('folder deleted!')
@@ -45,8 +45,8 @@ const fs = require('fs');
 // }
 
 fs.mkdir('./assets3', (err) => {
-    if(err){
-        console.log(err)
-    }
-    console.log('gdtyef')
-})
+  if (err) {
+    console.log(err);
+  }
+  console.log('gdtyef');
+});
